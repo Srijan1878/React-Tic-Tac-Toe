@@ -1,0 +1,11 @@
+svg {
+  width: 90px;
+  height: 90px;
+}
+.shape {
+  fill: none;
+  stroke: black;
+  stroke-width: 5;
+  transform-origin: center;
+  transition: all 2s ease-in-out;
+}
