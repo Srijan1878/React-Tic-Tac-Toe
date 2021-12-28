@@ -1,5 +1,4 @@
-import React, { useRef } from "react";
-import { useEffect } from "react/cjs/react.development";
+import React, { useRef, useEffect } from "react";
 import classes from "./Circle.module.css";
 
 export default function Circle() {
@@ -10,7 +9,7 @@ export default function Circle() {
       circleRef.current.style.strokeDashoffset = "0"
       circleRef.current.style.transform = 'rotate(360deg)'
   })
-  
+
   return (
     <svg>
       <circle
